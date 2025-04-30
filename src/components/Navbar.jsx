@@ -13,7 +13,6 @@ const Navbar = () => {
         <div className='nav-header'>
           <Link to='/'>
             <img src={logoisabi} alt='my factcheck' />
-            {/* LOGO */}
           </Link>
           <button type='button' className='nav-toggle' onClick={openSidebar}>
             <FaBars />
@@ -29,7 +28,7 @@ const Navbar = () => {
             )
           })}
         </ul>
-        <button className='btn'>Donate</button>
+        <button className='btn cart-btn-wrapper'>Donate</button>
       </div>
     </NavContainer>
   )
@@ -51,7 +50,8 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
+      /* width: 175px; */
+      width: 220px;
       margin-left: -15px;
     }
   }

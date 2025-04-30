@@ -31,7 +31,7 @@ export const links = [
   },
   {
     id: 3,
-    text: 'My Ai fact-check',
+    text: 'Sabi Check Ai ',
     url: '/my-ai-factcheck',
   },
 ]
