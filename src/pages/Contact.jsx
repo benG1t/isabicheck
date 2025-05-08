@@ -5,18 +5,25 @@ const Contact = () => {
   return (
     <Wrapper className='contact section' id='contact'>
       <div className='section-title'>
-        <h2 className='title '>Contact Us</h2>
+        <h2 className='title '>Connect With Us</h2>
         <div className='underline'></div>
       </div>
       <div className='contact-center section-center'>
         <div className='contact-info'>
-          <p className='info'>CONTACT ADRESS AREA(LETS TALK)</p>
-          <p className='email'>Email: isabicheck@gmail.com</p>
+          <h4 className='title'>Address</h4>
+          <p>
+            Address Suite 302, Ammah plaza, Gwarinpa, Abuja 900108, Federal
+            Capital Territory
+          </p>
+          <h4 className='title'>Email</h4>
+          <p>Isabicheck.africa@gmail.com</p>
+          <h4 className='title'>Phone Number</h4>
+          <p>+2348132369296</p>
         </div>
-        <form>
-          <input type='text' name='text' placeholder='Name' />
+        <form action='https://formspree.io/f/manooqbo' method='POST'>
+          <input type='text' name='name' placeholder='Name' />
           <input type='email' name='email' placeholder='Email' />
-          <input type='text' name='text' placeholder='Message' />
+          <input type='text' name='message' placeholder='Message' />
           <button type='submit' className='btn'>
             submit
           </button>
@@ -29,10 +36,6 @@ const Contact = () => {
 const Wrapper = styled.section`
   min-height: 85vh;
   background: var(--clr-grey-10);
-  .email {
-    margin-bottom: -1rem;
-    font-weight: bold;
-  }
   .contact-center {
     display: grid;
     gap: 2rem;
@@ -54,9 +57,15 @@ const Wrapper = styled.section`
     font-size: 1rem;
     p {
       color: var(--clr-grey-1);
+      text-align: center;
+      margin-top: -0.3rem;
+    }
+    h4 {
+      color: var(--clr-grey-3);
     }
   }
   .section-title {
+    margin-bottom: 3rem;
     h2 {
       color: var(--clr-grey-1);
     }
