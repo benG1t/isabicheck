@@ -7,7 +7,7 @@ import ipob from '../assets/images/ipob.jpeg'
 export const links = [
   {
     id: 1,
-    text: 'home',
+    text: 'factCheck',
     url: '/',
   },
   {
@@ -15,28 +15,28 @@ export const links = [
     text: 'about',
     url: '/about',
   },
+  // {
+  //   id: 3,
+  //   text: 'factCheck',
+  //   url: '/fact-check',
+  // },
+  // {
+  //   id: 4,
+  //   text: 'articles',
+  //   url: '/articles',
+  // },
+  // {
+  //   id: 5,
+  //   text: 'event',
+  //   url: '/event',
+  // },
   {
     id: 3,
-    text: 'factCheck',
-    url: '/fact-check',
-  },
-  {
-    id: 4,
-    text: 'articles',
-    url: '/articles',
-  },
-  {
-    id: 5,
-    text: 'event',
-    url: '/event',
-  },
-  {
-    id: 6,
     text: 'contact',
     url: '/contact',
   },
   {
-    id: 7,
+    id: 4,
     text: 'Sabi Check Ai ',
     url: '/my-ai-factcheck',
   },

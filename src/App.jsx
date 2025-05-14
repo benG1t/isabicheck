@@ -8,6 +8,7 @@ import Event from './pages/Event'
 import Contact from './pages/Contact'
 import MyAiFactCheck from './pages/MyAiFactCheck'
 import Error from './pages/Error'
+import SingleBlog from './pages/SingleBlog'
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: 'my-ai-factcheck',
         element: <MyAiFactCheck />,
+      },
+      {
+        path: 'single-blog/:id',
+        element: <SingleBlog />,
       },
     ],
   },
