@@ -9,6 +9,7 @@ import Contact from './pages/Contact'
 import MyAiFactCheck from './pages/MyAiFactCheck'
 import Error from './pages/Error'
 import SingleBlog from './pages/SingleBlog'
+import SingleTeamMember from './pages/SingleTeamMember'
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: 'single-blog/:id',
         element: <SingleBlog />,
+      },
+      {
+        path: 'single-team-member/:id',
+        element: <SingleTeamMember />,
       },
     ],
   },

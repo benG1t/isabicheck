@@ -1,4 +1,4 @@
-import { news } from '../utils/constants'
+import { news, staff } from '../utils/constants'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -58,10 +58,13 @@ const Wrapper = styled.div`
   }
   .img-container {
     max-width: 30rem;
+    /* min-height: 30rem; */
   }
   .img {
     border-radius: var(--radius);
+    /* min-height: 100%; */
   }
+
   @media (min-width: 576px) {
     .blog {
       display: grid;
@@ -69,9 +72,9 @@ const Wrapper = styled.div`
       gap: 2rem;
       max-width: 100%;
     }
-    .img-container {
+    /* .img-container {
       max-width: 30rem;
-    }
+    } */
   }
   @media (min-width: 676px) {
     .blog-info {

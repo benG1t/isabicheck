@@ -3,6 +3,12 @@ import bomb from '../assets/images/bomb.png'
 import BloodType from '../assets/images/BloodType.png'
 import facebookScam from '../assets/images/facebookScam.png'
 import ipob from '../assets/images/ipob.jpeg'
+//staff img
+import EsimajeMichael from '../assets/images/EsimajeMichael.jpg'
+import AishatMomodu from '../assets/images/AishatMomodu.jpg'
+import BenjaminOkoye from '../assets/images/BenjaminOkoye.jpg'
+import BlessingEneh from '../assets/images/BlessingEneh.jpg'
+import ChidiUdeh from '../assets/images/ChidiUdeh.jpg'
 
 export const links = [
   {
@@ -12,7 +18,7 @@ export const links = [
   },
   {
     id: 2,
-    text: 'about',
+    text: 'about Us',
     url: '/about',
   },
   // {
@@ -98,44 +104,52 @@ export const news = [
     description:
       'No credible media platform has reported a bomb blast in Abuja on 29 April or an assasination attempt on Shettima. It’s therefore very unlikely to be true. Past bomb blasts in Abuja were widely reported by local and international media. This includes the explosion of an improvised explosive device in January, which killed two people in a school near Abuja. There is no evidence of any bomb explosion in Abuja on 29 April. The claim is false',
   },
-  // {
-  //   id: 6,
-  //   img: OlukayodeAriwoolaArrestFalse,
-  //   title:
-  //     'No, Nigerian former chief justice Olukayode Ariwoola not arrested in US',
-  //   description:
-  //     'Several Facebook posts claim that the former chief justice of Nigeria Olukayode Ariwoola has been arrested in the United States. The posts refer to Ariwoola as the judge that declared Bola Tinubu as the winner of Nigerias 2023 presidential election, and claim that US president Donald Trump ordered his arrest.The posts include three images, of Ariwoola, Trump and a plane taking off from an airport.The same claim appears here, here and here. (Note: See more instances at the end of this report.)Ariwoola was appointed the chief justice of Nigeria in June 2022. He was in office during the 2023 general elections. However, he was not one of the five judges who looked at the petitions from the presidential election and declared that Tinubu was duly elected.But has Ariwoola been arrested in the US? We checked.',
-  // },
-  // {
-  //   id: 7,
-  //   img: OlukayodeAriwoolaArrestFalse,
-  //   title:
-  //     'No, Nigerian former chief justice Olukayode Ariwoola not arrested in US',
-  //   description:
-  //     'Several Facebook posts claim that the former chief justice of Nigeria Olukayode Ariwoola has been arrested in the United States. The posts refer to Ariwoola as the judge that declared Bola Tinubu as the winner of Nigerias 2023 presidential election, and claim that US president Donald Trump ordered his arrest.The posts include three images, of Ariwoola, Trump and a plane taking off from an airport.The same claim appears here, here and here. (Note: See more instances at the end of this report.)Ariwoola was appointed the chief justice of Nigeria in June 2022. He was in office during the 2023 general elections. However, he was not one of the five judges who looked at the petitions from the presidential election and declared that Tinubu was duly elected.But has Ariwoola been arrested in the US? We checked.',
-  // },
-  // {
-  //   id: 8,
-  //   img: OlukayodeAriwoolaArrestFalse,
-  //   title:
-  //     'No, Nigerian former chief justice Olukayode Ariwoola not arrested in US',
-  //   description:
-  //     'Several Facebook posts claim that the former chief justice of Nigeria Olukayode Ariwoola has been arrested in the United States. The posts refer to Ariwoola as the judge that declared Bola Tinubu as the winner of Nigerias 2023 presidential election, and claim that US president Donald Trump ordered his arrest.The posts include three images, of Ariwoola, Trump and a plane taking off from an airport.The same claim appears here, here and here. (Note: See more instances at the end of this report.)Ariwoola was appointed the chief justice of Nigeria in June 2022. He was in office during the 2023 general elections. However, he was not one of the five judges who looked at the petitions from the presidential election and declared that Tinubu was duly elected.But has Ariwoola been arrested in the US? We checked.',
-  // },
-  // {
-  //   id: 9,
-  //   img: OlukayodeAriwoolaArrestFalse,
-  //   title:
-  //     'No, Nigerian former chief justice Olukayode Ariwoola not arrested in US',
-  //   description:
-  //     'Several Facebook posts claim that the former chief justice of Nigeria Olukayode Ariwoola has been arrested in the United States. The posts refer to Ariwoola as the judge that declared Bola Tinubu as the winner of Nigerias 2023 presidential election, and claim that US president Donald Trump ordered his arrest.The posts include three images, of Ariwoola, Trump and a plane taking off from an airport.The same claim appears here, here and here. (Note: See more instances at the end of this report.)Ariwoola was appointed the chief justice of Nigeria in June 2022. He was in office during the 2023 general elections. However, he was not one of the five judges who looked at the petitions from the presidential election and declared that Tinubu was duly elected.But has Ariwoola been arrested in the US? We checked.',
-  // },
-  // {
-  //   id: 10,
-  //   img: OlukayodeAriwoolaArrestFalse,
-  //   title:
-  //     'No, Nigerian former chief justice Olukayode Ariwoola not arrested in US',
-  //   description:
-  //     'Several Facebook posts claim that the former chief justice of Nigeria Olukayode Ariwoola has been arrested in the United States. The posts refer to Ariwoola as the judge that declared Bola Tinubu as the winner of Nigerias 2023 presidential election, and claim that US president Donald Trump ordered his arrest.The posts include three images, of Ariwoola, Trump and a plane taking off from an airport.The same claim appears here, here and here. (Note: See more instances at the end of this report.)Ariwoola was appointed the chief justice of Nigeria in June 2022. He was in office during the 2023 general elections. However, he was not one of the five judges who looked at the petitions from the presidential election and declared that Tinubu was duly elected.But has Ariwoola been arrested in the US? We checked.',
-  // },
+]
+
+export const staff = [
+  {
+    id: 1,
+    name: 'Esimaje Michael Onoseme',
+    title: 'Founder',
+    img: EsimajeMichael,
+    description: `Esimaje Michael Onoseme is an Award Winning AI Governance Expert and Factcheck Accountability Practitioner. He’s the Founder of Isabi Check Africa. He's Currently the Managing Partner of Smart Gate Technologies and Consulting as well as the Global Director of TEM Foundation respectively.
+
+Esimaje has over a 10+ years of experience transversing across projects in the areas of AI Accountability, Good Governance, Factchecking and OGBV Facilitation whilst working with the VSO, GACLI, Atlas Network, RUSDI just to mention a few. 
+
+Till date, He has recruited, virtually mentored and managed over 110,560+ Talent across multiple sectors as a Talent Acquisition Specialist keen on Using Job placement Meta AI and career engagement as a tool to improve Good Governance and interpersonal Accountability Whilst reducing mental health and Drug Abuse menace amongst youths and women. He's passionate about Providing Green, Non Technical and  Digital Jobs to members of the public, he's personally procured over 1078+ jobs to members of the public Across.`,
+  },
+  {
+    id: 2,
+    name: 'Aishat Momodu',
+    title: 'Director of Grants & Partnership',
+    img: AishatMomodu,
+    description: `Aishat is a Partnership Professional and seasoned recruiter and Founder of Job Connect Agency, She specialize in connecting top talent with innovative organizations. 
+
+
+Prior to Joining Isabi Check Africa, Her partnership with Smart Gate Recruitment and Technologies enhances her drive across recruitment strategies that meet evolving industry needs. 
+
+With a strong education background from the University of Benin and a prestigious DigiGirls Tech Scholarship, she brings onboard her expertise and passion to delivering exceptional results in Partnership development and Factchecking`,
+  },
+  {
+    id: 3,
+    name: 'Benjamin Okoye',
+    title: 'Director of Media and Communication',
+    img: BenjaminOkoye,
+    description: `Benjamin Okoye is a Visual Professional with over 3 years of experience across the media space . He is a storyteller and works with local and international brands. He help brands tell their stories to position them for success.`,
+  },
+  {
+    id: 4,
+    name: 'Blessing Eneh',
+    title: 'Fact Checker',
+    img: BlessingEneh,
+    description: `Blessing Eneh is a freelance journalist and Storyteller who has explored many areas of journalism from Curating GBV Driven Stories to fact checking regular news informatics, climate and environmental Journalism as well as the major strands of reporting.
+`,
+  },
+  {
+    id: 5,
+    name: 'Chidi Udeh',
+    title: 'Fact Checker',
+    img: ChidiUdeh,
+    description: `Chidi Udeh is a forward-thinking Media professional with a strong background in visual imagery methodologies and technical storytelling execution. He is a Factchecking enthusiast and advocate based in the Federal Capital Territory.`,
+  },
 ]
