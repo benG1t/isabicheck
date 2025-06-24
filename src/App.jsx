@@ -11,6 +11,8 @@ import Error from './pages/Error'
 import SingleBlog from './pages/SingleBlog'
 import SingleTeamMember from './pages/SingleTeamMember'
 
+import { action as myAiFactCheckAction } from './pages/MyAiFactCheck'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -42,8 +44,9 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: 'my-ai-factcheck',
+        path: 'isabicheck-ai',
         element: <MyAiFactCheck />,
+        action: myAiFactCheckAction,
       },
       {
         path: 'single-blog/:id',
